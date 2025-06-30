@@ -1,4 +1,10 @@
 # Berti-Artifact
+# Saranya Research
+## Task 1 
+- to implement next line prefetcher and it's performance on GAP benchmarks
+- brainstorm a better prefetch solution than the next line prefetcher.
+- Compare it with bert 
+
 
 [![DOI](https://zenodo.org/badge/518392799.svg)](https://zenodo.org/badge/latestdoi/518392799)
 
