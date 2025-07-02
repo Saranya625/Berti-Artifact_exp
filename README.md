@@ -1,9 +1,15 @@
 # Berti-Artifact
 # Saranya Research
+## Task 3
+- implemented a new prefetcher that has a table which is accessed on l1d access incase of miss it is indexed with the address and the next access that's not in the table will be linked up with the last_address when the address accessed is present in the table prefetch request to the next_address is sent .
+- ran the prefetcher on SSSP-10 ended up with a performance loss of 10% comapred to next_line prefetcher 
+## Task 2 
+- made test.sh that runs the requried benchmarks .
+
 ## Task 1 
 - to implement next line prefetcher and it's performance on GAP benchmarks
 - brainstorm a better prefetch solution than the next line prefetcher.
-- Compare it with bert 
+  
 
 
 [![DOI](https://zenodo.org/badge/518392799.svg)](https://zenodo.org/badge/latestdoi/518392799)
